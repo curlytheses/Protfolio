@@ -6,6 +6,7 @@ import health from "../../Assets/Projects/health.png";
 import aptos from "../../Assets/Projects/aptos.png";
 import todo from "../../Assets/Projects/todo.png";
 import oudyo from "../../Assets/Projects/oudyo.jpeg";
+import dns from "../../Assets/Projects/dns.png";
 
 function Projects() {
   return (
@@ -56,6 +57,16 @@ function Projects() {
               title="Work Reminder"
               description="The Flutter-based Daily Routine tracker is an efficient app designed to organize and optimize users' daily activities. It offers features like customizable task lists, reminders, progress tracking, habit formation, time management tools, statistics visualization, and user-friendly interface, facilitating productivity and habit-building."
               ghLink="https://github.com/curlytheses/PersonalProjects/tree/main/todoapp"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dns}
+              isBlog={false}
+              title="Malicious DNS Detection"
+              description="Using advanced machine learning algorithms and real-time data analysis, the Malicious DNS Detection project aims to identify and neutralize potentially harmful domain name system activities, enhancing cybersecurity measures and safeguarding network integrity."
+              ghLink="https://github.com/curlytheses/Malicious-DNS-Detection"
             />
           </Col>
           
