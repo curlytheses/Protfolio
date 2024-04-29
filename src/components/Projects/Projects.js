@@ -6,7 +6,7 @@ import health from "../../Assets/Projects/health.png";
 import aptos from "../../Assets/Projects/aptos.png";
 import todo from "../../Assets/Projects/todo.png";
 import oudyo from "../../Assets/Projects/oudyo.jpeg";
-import dns from "../../Assets/Projects/dns.png";
+import dns from "../../Assets/Projects/dns.jpeg";
 
 function Projects() {
   return (
