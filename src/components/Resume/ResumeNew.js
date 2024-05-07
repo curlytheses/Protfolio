@@ -18,7 +18,7 @@ function ResumeNew() {
 
   const handlePageChange = () => {
     setPageNumber((prevPageNumber) => {
-      if (prevPageNumber === 6) {
+      if (prevPageNumber === 2) {
         return 1;
       } else {
         return prevPageNumber + 1;
