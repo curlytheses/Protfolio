@@ -11,9 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Krishnendu Das </span>
             from <span className="purple"> Kolkata, India.</span>
             <br />
-            I am a Bachelors of Computer Science and Electronics Student
+            I am a Master of Computational Science and Applications
             <br />
-            at Ramakrishna Mission Vidyamandira College Belur Math Howrah
+            Student at DST-CIMS, Banaras Hindu University, Varanasi, India.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

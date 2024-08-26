@@ -7,6 +7,8 @@ import aptos from "../../Assets/Projects/aptos.png";
 import todo from "../../Assets/Projects/todo.png";
 import oudyo from "../../Assets/Projects/oudyo.jpeg";
 import dns from "../../Assets/Projects/dns.jpeg";
+import dnsmal from "../../Assets/Projects/dnsmal.png";
+import malfile from "../../Assets/Projects/malfile.jpg";
 
 function Projects() {
   return (
@@ -20,6 +22,27 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={malfile}
+              isBlog={false}
+              title="Novel Approach to Detect Malicious Files in Our Devices"
+              description="Recently I got an Oportunity to work on Robotics and Machine Intelligence Lab in DTU. Under supervision of Dr. Rahul Thakur I studied various deep learning algorithms in depth and developed a novel approach to detect all malicious files present in our device with its md5 and hash values. We used dataset direct from Virustotal and CIS and I also have plan to publish a research paper about this work."
+              ghLink="https://github.com/curlytheses/DTU"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dnsmal}
+              isBlog={false}
+              title="Filter Malicious DNS from Network Firewall Using Deep Learning"
+              description="Recently I applied for Some Summer Internship in the very end of my Bachelor studies to get some hands-on lab experience and also some external lab experience and I was shortlisted in SRIP program in IISER Bhopal under Dr. Kuntal Roy in ECE Department Quantum Lab. There I became familiar with some Qunatum Deep Learning Algorithms, Quantum ML packages and I successully completed this internship with submitting a detail project report."
+              ghLink="https://github.com/curlytheses/IISERB"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={aptos}
